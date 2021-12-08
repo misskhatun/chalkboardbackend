@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chalkboard</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet"> -->
+    <a href="index.html"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></a>
+    <link rel="stylesheet" href="./css/style1.css">
+  </head>
+  <body>
+    <main>
+      <!-- ***************  ABOUT / PROFILE  **************** -->
+      
+      <!-- ************ PROJECTS / PORTFOLIO  ************** -->
+      <div class="projects">
+          <!-- Project 1 -->
+          <div class="project-item content-wrap divider">
+
+            <form class="login-form" action="/" method="POST">
+            <div class="login-form__logo-container">
+                <img class="login-form__logo" src="./image/chalkboard-logos_white.png" alt="Logo">
+            </div>
+            <div class="login-form__content">
+                <div class="login-form__header">Log in to your account</div>
+                <input class="login-form__input" type="email" name="userEmail" id="userEmail" placeholder="Username">
+                <input class="login-form__input" type="password" name="userPassword" id="userPassword" placeholder="Password">
+                <button class="login-form__button" type="submit" style="margin-bottom: 20px;">Login</button>
+
+
+                <a class="login-form__button" href="studentPage.html" style="margin-top: 10px; text-align: center; color:white;">Student</a>
+                <a class="login-form__button" href="instructor.html" style="margin-top: 10px; text-align: center; color: white;">Teacher</a>
+                <a class="login-form__button" href="admin.html" style="margin-top: 40px; text-align: center; color: white;">Admin</a>
+                <div class="login-form__links">
+                    <a class="login-form__link" href="/signup">Sign up here</a>
+                </div>
+            </div>
+        </form>
+
+        <% if (messages.error){ %>
+          <%=messages.error %>
+        
+        <% } %>
+
+          </div>
+        </div>
+
+      <!-- ****************  WORK EXPERIENCE  ******************** -->
+      <section class="work-experience">
+        <div class="content-wrap item-details divider">
+          <img src="./image/teaching.jpeg" alt="teacher">
+          <h2 style="margin-top: 20px;">About</h2>
+            <p>to chalkboard! Here we Teach, Learn and Grow together</p>
+          <p>Since this pandemic, we wanted to create a platform where learning process can be easier for both teacher an students</p>
+          <p>Chalkboard was build in 2020 to give platform to educational institutaion for online classes</p>
+            </div>
+          </section>
+        
+     
+
+      <!-- *************  EDUCATION & CERTIFICATIONS *********** -->
+      <section class="education">
+        <div class="content-wrap item-details">
+          <h2>Our Partners</h2>
+
+          <section>
+            <h6>We are happy to announce that CUNY-Queens College is now our partner!</h6>
+          </section>
+        </div>
+      </section>
+
+      <!-- ************  CONTACT INFO / SOCIAL MEDIA  ************ -->
+      <footer>
+        <div class="content-wrap">
+          <h2>Let's Keep in Touch!</h2>
+
+          <!-- Social media and contact links. Add or remove any networks. -->
+          <ul class="contact-list">
+            <li><a href="#">Email us</a></li>
+            <li><a href="#" target="_blank">Facebook</a></li>
+            <li><a href="#" target="_blank">Twitter</a></li>
+            <li><a href="#" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

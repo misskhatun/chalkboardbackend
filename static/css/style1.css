@@ -1,0 +1,389 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #343434;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img {
+  width: 300px;
+}
+a {
+  color: #FFE66D;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  font-size: 60px;
+  line-height: 1;
+}
+h2 {
+  font-size: 45px;
+}
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  margin: 0;
+}
+.content-wrap {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+h3 {
+  margin-bottom: 0;
+}
+.item-details h3 + p {
+  font-style: italic;
+}
+.item-details h3 ~ p {
+  margin: 0;
+}
+.divider > section {
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+
+/* Profile
+------------------------------------*/
+header {
+  
+  color: #a91900;
+  text-align: left;
+  margin-right: 100px;
+}
+
+.headerimg{
+  min-width: 1100px;
+  width:65%;
+  margin: 0 auto;
+  padding-left: 300px;
+  
+  background-size: cover;
+}
+
+.sign{
+    position:center;
+    /* margin-left: 90px; */
+    padding-left: 70px;
+}
+
+.submit{
+  color: white;
+  background: #2F3061;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+form h4{
+    text-align:center;
+}
+
+.button{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 15px 30px;
+    color: white;
+    background: #2F3061;
+    border:none;
+}
+
+
+
+/* Projects
+------------------------------------*/
+.projects {
+  background: #fffefd;
+}
+.projects a {
+  color: #2F3061;
+}
+.projects .btn {
+  color: #F7FFF7;
+  background: #ececec;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.projects .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+.project-item {
+  overflow: hidden;
+}
+.project-item img {
+  /* float: left; */
+  margin-right: 20px;
+  margin-left: 10px;
+  padding: 0px;
+}
+.project-item h3 {
+  margin-top: 0;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+  background-color: rgb(204, 204, 204);
+}
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+}
+
+
+/* Education
+------------------------------------*/
+.education {
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 100px;
+}
+.education p {
+  width: 60%;
+}
+
+
+/* Contact Info
+------------------------------------*/
+footer {
+  background: #343434;
+  color: #F7FFF7;
+  text-align: center;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
+
+
+
+.sign-in{
+  /* max-width: 800px;
+  margin:0 auto; */
+  background-color: rgb(185, 129, 129);
+  border-radius: 10px;
+  padding: 6px 0;
+  padding: 6px;
+  position: absolute;
+  left: 500px;
+  top: 450px;
+  /* margin-top:10px; */
+}
+
+.signin{
+font-size: 20px;
+font-family: 'Caveat', cursive;
+font-weight: 400;
+padding-right: 200px;
+background-color: coral;
+color: #a91900;
+}
+
+.sign-in p{
+  text-align: center;
+}
+
+#userName, #password{
+  margin-right: 10px;
+  padding-right: 8px;
+  margin-left: 8px;
+  margin-top:5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid blue;
+}
+
+#userStudent, #passwordStudent{
+  margin-right: 10px;
+  padding-right: 8px;
+  margin-left: 8px;
+  margin-top:5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid blue;
+}
+
+#passwordStudent{
+  margin-top: 10px;
+}
+
+#userAdmin, #passwordAdmin{
+  margin-right: 10px;
+  padding-right: 8px;
+  margin-left: 8px;
+  margin-top:5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid blue;
+}
+
+#passwordAdmin{
+  margin-top: 10px;
+}
+
+#password{
+  margin-top: 10px;
+}
+
+.middle-column {
+display: flex;
+flex-direction: row;
+
+}
+
+.middle-column div {
+
+margin: 0 10px;
+padding: 10px;
+FONT-WEIGHT: 600;
+border: solid 10px green;
+border-radius: 9px;
+}
+
+.middle-column div+div {
+margin-top: 20px;
+margin:25px;
+padding: 10px;
+border: solid 10px green;
+}
+
+/* .box-wrapper {
+height: 60vh;
+width: 30vw;
+display: flex;
+flex-direction: row;
+border: solid 10px green;
+} */
+
+#box5{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+#box7{
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 20px;
+}
+
+.signinp{
+background-color: green;
+}
+
+.container{
+margin-left: 110px;
+}
+
+
+
+
+
+
+
+
+
+.login-form,
+.login-form * {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro';
+}
+
+.login-form {
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.login-form__logo-container {
+    padding: 30px;
+    background: rgb(6, 56, 6);
+}
+
+.login-form__logo {
+    display: block;
+    max-width: 125px;
+    margin: 0 auto;
+}
+
+.login-form__content {
+    padding: 30px;
+    background: #eeeeee;
+}
+
+.login-form__header {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333333;
+}
+
+.login-form__input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
+}
+
+.login-form__input:focus {
+    border-color: #009578;
+}
+
+.login-form__input::placeholder {
+    color: #aaaaaa;
+}
+
+.login-form__button {
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    background: #009578;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login-form__button:active {
+    background: #008067;
+}
+
+.login-form__links {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.login-form__link {
+    font-size: 0.9em;
+    color: #008067;
+    text-decoration: none;
+}

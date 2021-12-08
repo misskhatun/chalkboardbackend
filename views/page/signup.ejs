@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Sign Up</title>
+
+    <link rel="stylesheet" href="./css/styles3.css">
+
+<body>
+    <main>
+        <header>
+          <div class="content-wrap">
+           <a href="index.html"><img src="./image/chalkboard-logos_transparent.png" alt="chalkboard logo" class="logo"></a>
+              <h1 style="text-align: center;">Join ChalkBoard Today</h1>
+<form method="POST" action="/signup">
+    <div class="signup-form">
+       <label for="userEmail" style="margin-right: 20px;">Email</label>
+       <input type="email" id="userEmail" name="userEmail" required placeholder="name@domain.com" pattern="[a-zA-Z0-9-_\.]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*">
+    </div>
+
+    <div class="signup-form">
+       <label for="userPassword" style="margin-right: 10px;">Password</label>
+       <input type="password" id="userPassword" name="userPassword" placeholder="password" minlength="8" required>
+    </div>
+
+    <div class="signup-form">
+        <label for="school"  style="margin-right: 10px;">School</label>
+        <input type="text" id="school" name="school" placeholder="name" required>
+     </div>
+
+    <div class="signup-form">
+       <label for="dateToSend" style="margin-right: 20px;">DOB</label>
+  <input type="date" name="dateToSend" id="dateToSend">
+    </div>
+  <button type="submit" value="Sign Up" style="margin-left: 240px; padding:10px 20px; background-color: #2F3061; color: white;"> Register </button>
+  <a href="/">Sign in</a>
+  </form>
+ 
+          </div>
+        </header>
+        <footer>
+          <div class="content-wrap">
+            <h2>Let's Keep in Touch!</h2>
+  
+            <!-- Social media and contact links. Add or remove any networks. -->
+            <ul class="contact-list">
+              <li><a href="#">Email us</a></li>
+              <li><a href="#" target="_blank">Facebook</a></li>
+              <li><a href="#" target="_blank">Twitter</a></li>
+              <li><a href="#" target="_blank">LinkedIn</a></li>
+            </ul>
+          </div>
+        </footer>
+      </main>
+</body>
+</html>
+
+
+
+
+
+<!-- <h1>Join ChalkBoard Today</h1>
+<form method="POST" action="#" id="signup-form">
+    <div style="margin-bottom: 10px;">
+       <label for="userEmail">Email</label>
+       <input type="text" id="useEmail" name="userEmail" required placeholder="name@domain.com" pattern="[a-zA-Z0-9-_\.]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*">
+    </div>
+
+    <div>
+       <label for="userPassword">Password</label>
+       <input type="password" id="userPassword" name="userPassword" placeholder="password" minlength="8" required>
+    </div>
+
+    <div>
+        <label for="school">School</label>
+        <input type="school" id="school" name="school" placeholder="name" required>
+     </div>
+
+    <div>
+       <label for="dateToSend">DOB</label>
+  <input type="date" name="dateToSend" id="dateToSend">
+    </div>
+
+  <button type="submit" form="form1" value="Send Birthday Message">Sign Up</button> -->
+

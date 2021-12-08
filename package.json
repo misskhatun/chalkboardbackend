@@ -1,0 +1,36 @@
+{
+  "name": "chalkboard",
+  "version": "1.0.0",
+  "description": "I have learned how to design wireframe and sitemap, before building any website it is important to layout the design first in this way you will know exactly how you want your webpage to look like. Also I have learned how to collaboratively work togeher using GitHub. My partner and I both disgussed how we want our chalkboard to look like and the specific parts for each student and instructor even for the admin. I have designed the wireframe for the students and the insructor and the admin.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.2",
+    "method-override": "^3.0.0",
+    "passport": "^0.5.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
